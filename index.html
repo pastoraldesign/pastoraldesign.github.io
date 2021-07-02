@@ -1,31 +1,103 @@
-<!doctype html>
-<html lang="fa" dir="rtl">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>Bolt - Coming Soon Template</title>
 
-    <link rel=icon href=img/favicon.png type="image/png">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Off Canvas Menu -->
+    <link rel="stylesheet" type="text/css" href="assets/css/menu_sideslide.css">
+    <!-- Color Switcher -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vegas.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
-    <title>فروشگاه پاستورال</title>
   </head>
   <body>
-    <h1>اینجا پاستورال است.</h1>
-    <p>در حال به روز رسانی وبسایت هستیم.</p>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <div class="bg-wraper overlay has-vignette">
+      <div id="example" class="slider opacity-50 vegas-container" style="height: 983px;"></div>
+    </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Coundown Section Start -->
+    <section class="countdown-timer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="heading-count">
+              <h2>WE ARE LAUNCHING IN</h2>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="row time-countdown justify-content-center">
+              <div id="clock" class="time-count"></div>
+            </div>
+            <p>
+            Bolt - High quality Bootstrap HTML5 Coming Soon Landing Page Template<br>
+            Comes with fully responsive layout, Cool features, and Clean design.
+            </p>
+            <div class="button-group">
+              <a href="#" class="btn btn-common">Notify Me</a>
+              <a href="#" class="btn btn-border">About Us</a>
+            </div>
+            <div class="social mt-4">
+              <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
+              <a class="twitter" href="#"><i class="lni-twitter-filled"></i></a>
+              <a class="instagram" href="#"><i class="lni-instagram-filled"></i></a>
+              <a class="google" href="#"><i class="lni-google-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Coundown Section End -->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/vegas.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script> 
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+
+    <script type="text/javascript">
+      $("#example").vegas({
+          timer: false,
+          delay: 6000,
+          transitionDuration: 2000,
+          transition: "blur",
+          slides: [
+              { src: "assets/img/slide1.jpg" },
+              { src: "assets/img/slide2.jpg" },
+              { src: "assets/img/slide3.jpg" }
+          ]
+      });
+    </script>
+      
   </body>
 </html>
