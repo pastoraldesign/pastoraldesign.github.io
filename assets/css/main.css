@@ -3,6 +3,8 @@
 @font-face {
   font-family: "Vazir-Regular";
   src: url("assets/fonts/Vazir-Regular-FD.ttf") format("ttf"),
+  src: url("assets/fonts/Vazir-Regular-FD.woff") format("woff"),
+  src: url("assets/fonts/Vazir-Regular-FD.woff2") format("woff2"),
 }
 
 /* Google Fonts */
