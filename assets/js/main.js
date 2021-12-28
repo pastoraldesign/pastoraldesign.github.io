@@ -31,7 +31,7 @@
     /* ==========================================================================
     countdown timer
     ========================================================================== */
-     jQuery('#clock').countdown('3021/12/20',function(event){
+     jQuery('#clock').countdown('2031/12/20',function(event){
       var $this=jQuery(this).html(event.strftime(''
       +'<div class="time-entry days"><span>%-D</span> روز</div> '
       +'<div class="time-entry hours"><span>%H</span> ساعت</div> '
